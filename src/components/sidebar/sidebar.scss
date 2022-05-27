@@ -1,0 +1,40 @@
+.sidebar {
+  flex: 1;
+  border-right: 0.5px solid rgb(230, 227, 227);
+  min-height: 100vh;
+  background-color: white;
+  position: fixed;
+  top: 70px;
+
+  .top {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: #6439ff;
+    }
+  }
+
+ 
+  .center {
+    min-width: 175px;
+    margin-right: 10px;
+    box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+
+    ul {
+      li {
+        padding: 7px;
+        span{
+            font-size: 13px;
+            font-weight: bold;
+            color: #888;
+        }
+      }
+    }
+  }
+}
